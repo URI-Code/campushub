@@ -1,12 +1,15 @@
 [versions]
 agp = "8.13.2"
-kotlin = "2.0.21"
-coreKtx = "1.19.0"
+kotlin = "2.3.21"
+coreKtx = "1.17.0"
 junit = "4.13.2"
 junitVersion = "1.3.0"
 espressoCore = "3.7.0"
 appcompat = "1.8.0"
 material = "1.14.0"
+recyclerview = "1.4.0"
+googleServices = "4.5.0" # plugin que le o google-services.json
+firebaseBom = "34.18.0" # uma versao so para todas as libs do Firebase
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -15,8 +18,13 @@ androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "j
 androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
 androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
 material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+firebase-bom = { group = "com.google.firebase", name = "firebase-bom", version.ref = "firebaseBom" } # Bill of Materials do Firebase
+firebase-auth = { group = "com.google.firebase", name = "firebase-auth" } # Authentication; a versao vem do BOM
+firebase-firestore = { group = "com.google.firebase", name = "firebase-firestore" } # Firestore; a versao vem do BOM
+androidx-recyclerview = { group = "androidx.recyclerview", name = "recyclerview", version.ref = "recyclerview" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
 kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+google-services = { id = "com.google.gms.google-services", version.ref = "googleServices" } # plugin do Google Services
 

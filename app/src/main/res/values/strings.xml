@@ -1,3 +1,36 @@
 <resources>
     <string name="app_name">CampusHub</string>
+    <string name="login_subtitle">Entre com e-mail e senha</string>
+    <string name="register_subtitle">Crie uma conta com e-mail e senha</string>
+    <string name="email">E-mail</string>
+    <string name="password">Senha</string>
+    <string name="confirm_password">Confirmar senha</string>
+    <string name="login">Entrar</string>
+    <string name="create_account">Criar conta</string>
+    <string name="register">Cadastrar</string>
+    <string name="already_have_account">Já tenho conta</string>
+    <string name="home_title">Você está autenticado</string>
+    <string name="logout">Sair</string>
+    <string name="new_course">Cadastrar curso</string>
+    <string name="list_courses">Ver cursos</string>
+    <string name="course_name">Nome do curso</string>
+    <string name="professor">Professor responsável</string>
+    <string name="professor_line">Professor: %1$s</string>
+    <string name="save">Salvar</string>
+    <string name="course_saved">Curso salvo.</string>
+    <string name="courses_title">Cursos</string>
+    <string name="courses_empty">Nenhum curso cadastrado.</string>
+    <string name="error_course_name_required">Informe o nome do curso.</string>
+    <string name="error_professor_required">Informe o professor responsável.</string>
+    <string name="error_firestore_permission">Sem permissão no Firestore. Confira as regras do projeto.</string>
+    <string name="error_email_required">Informe o e-mail.</string>
+    <string name="error_password_required">Informe a senha.</string>
+    <string name="error_password_short">A senha precisa ter pelo menos 6 caracteres.</string>
+    <string name="error_password_mismatch">As senhas não coincidem.</string>
+    <string name="error_invalid_email">E-mail inválido.</string>
+    <string name="error_invalid_credentials">E-mail ou senha incorretos.</string>
+    <string name="error_email_in_use">Este e-mail já está em uso.</string>
+    <string name="error_weak_password">A senha precisa ter pelo menos 6 caracteres.</string>
+    <string name="error_network">Sem conexão. Verifique a internet.</string>
+    <string name="error_generic">Não foi possível concluir. Tente novamente.</string>
 </resources>
